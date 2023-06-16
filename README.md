@@ -18,7 +18,7 @@ This document outlines the steps for setting up a script that triggers Discord n
   
 Triggers:
   
-      discord change-commit //depot/mainline/... "powershell.exe C:\perforce_discord_update.ps1.ps1 %changelist%"
+      discord change-commit //depot/mainline/... "powershell.exe C:\perforce_discord_update.ps1 %changelist%"
  '''
 
   

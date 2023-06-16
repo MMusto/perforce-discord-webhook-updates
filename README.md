@@ -11,7 +11,7 @@ This document outlines the steps for setting up a script that triggers Discord n
 1. Modify the variables at the top of the script. (P4PORT, P4USER, P4PASSWD, WebhookUrl)
 2. Save the script somewhere accessible to the Perforce user.
  - At this point, you should be able to manually execute the script with ./perforce_discord_update.ps1 <changelist number>
- 3. Open the server triggers editor by running p4 triggers in a terminal and append a new trigger similar to the following, but with your specific depot/stream and path to your script (The tab is important):
+ 3. Open the server triggers editor by running p4 triggers in a terminal and append a new trigger similar to the following, but with your specific depot/stream and path to your script (The tab at the beginning of the line is important):
   
  
  '''
